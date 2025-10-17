@@ -10,6 +10,9 @@ import java.security.Key;
 import java.util.Date;
 import java.util.function.Function;
 
+/**
+ * JWT主工具
+ */
 @Component // 标记为Spring组件，可以被其他Service或Filter注入使用
 public class JwtUtil {
 

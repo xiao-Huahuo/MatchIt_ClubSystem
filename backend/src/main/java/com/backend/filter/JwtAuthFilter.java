@@ -16,6 +16,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+/**
+ * JWT认证过滤器
+ */
 @Component
 public class JwtAuthFilter extends OncePerRequestFilter {
 

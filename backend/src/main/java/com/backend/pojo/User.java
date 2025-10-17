@@ -1,9 +1,12 @@
 package com.backend.pojo;
 
 import jakarta.persistence.*;
-
+import com.backend.common.constants.Constants;
+/**
+ * User实体
+ */
 @Entity
-@Table(name="users")
+@Table(name=Constants.USER_TABLE_NAME)
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

@@ -14,8 +14,10 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
-//负责JWT认证中com.backend.config.SecurityConfig中UserDetailsService接口的实现
-//User实体中必须有三个域:username,password,authority
+/**
+ * 负责JWT认证中com.backend.config.SecurityConfig中UserDetailsService接口的实现
+ * User实体中必须有三个域:username,password,authority
+ */
 @Service
 public class UserDetailsServiceImplementation implements UserDetailsService {
 
